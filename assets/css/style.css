@@ -84,6 +84,21 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
+#header .blog-logo {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  max-height: 40px;
+}
+
+#header .blog-logo img{
+  max-height: 40px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -492,6 +507,7 @@ section {
   padding-bottom: 30px;
 }
 .services .icon-box {
+  margin: 20px;
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
@@ -540,7 +556,7 @@ section {
   line-height: 28px;
   margin-bottom: 0;
 }
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.services .icon-box:hover .title a, .services .icon-box:hover .description, .services .icon-box:hover li {
   color: #fff;
 }
 .services .icon-box:hover .icon i {
@@ -1157,12 +1173,16 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-  padding: 40px 0 20px 0;
+  /* padding: 40px 0 20px 0; */
 }
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
 }
 .blog .entry .entry-img {
   max-height: 440px;
@@ -1705,3 +1725,13 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+/* - - - - - - - CSS AGREGADO PROPIO - - - - - - */
+
+
+#more {
+  display: none;
+}
+
