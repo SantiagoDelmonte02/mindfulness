@@ -79,6 +79,8 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background: rgba(206,201,188,255);
+  box-shadow: 0px 0px 30px rgba(134, 128, 109, 0.25);
 }
 #header .logo {
   font-size: 30px;
@@ -89,7 +91,7 @@ p {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #header .logo img {
   max-height: 40px;
@@ -142,7 +144,7 @@ p {
   align-items: center;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   padding: 0 4px;
   white-space: nowrap;
@@ -172,7 +174,7 @@ p {
   transform: scaleX(1);
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .navbar .dropdown ul {
   display: block;
@@ -459,7 +461,7 @@ section {
 }
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -638,6 +640,7 @@ section {
 }
 .cta p {
   color: #fff;
+  text-align: center;
 }
 .cta .cta-btn {
   font-family: "Nunito", sans-serif;
@@ -1759,7 +1762,61 @@ section {
 /* - - - - - - - CSS AGREGADO PROPIO - - - - - - */
 
 
-#more {
+#more, #moreCurso {
   display: none;
 }
 
+
+.insta-reels {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.insta-reels a {
+  margin: auto;
+}
+
+.insta-reels h3 {
+  font-size: 1.5rem;
+}
+
+.insta-reels i {
+  font-size: 30px;
+  color: #93c94e;
+  float: left;
+  width: 64px;
+  height: 64px;
+  background: #fdeff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-learn-more {
+  text-align: center;
+  margin: auto;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #93c94e;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #93c94e;
+}
+
+.descripcion-curso {
+  display: flex;
+  flex-direction: column;
+}
