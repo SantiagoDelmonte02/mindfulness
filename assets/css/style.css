@@ -95,6 +95,7 @@ p {
 }
 #header .logo img {
   max-height: 40px;
+  width: 100%;
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: rgba(0, 0, 0, 0.9);
@@ -455,14 +456,14 @@ section {
 .section-title h3 span {
   color: #93c94e;
 }
-.section-title p {
-  margin: 15px auto 0 auto;
+.section-title-text {
+  margin: 15px 0 0 0;
   font-weight: 600;
 }
 @media (min-width: 1024px) {
-  .section-title p {
+  /* .section-title p {
     width: 60%;
-  }
+  } */
 }
 
 /*--------------------------------------------------------------
@@ -525,7 +526,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .img-fork {
-  width: 100%;
+  width: 125%;
 }
 
 .services {
@@ -577,13 +578,13 @@ section {
   color: #111;
 }
 .services .description, li{
-  font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
 }
 .services .icon img {
   width: 70px;
+  max-height: 50px;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description, .services .icon-box:hover li {
   color: #fff;
@@ -1780,7 +1781,7 @@ section {
 }
 
 .insta-reels h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .insta-reels i {
