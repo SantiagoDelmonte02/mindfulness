@@ -583,7 +583,7 @@ section {
   text-align: left;
 }
 .services .icon img {
-  width: 70px;
+  /* width: 70px; */
   max-height: 50px;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description, .services .icon-box:hover li {
