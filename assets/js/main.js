@@ -220,7 +220,7 @@ function verMas() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Ver mas";
+    btnText.innerHTML = "Ver más";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
@@ -236,7 +236,7 @@ function verMasCurso() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Ver mas";
+    btnText.innerHTML = "Ver más";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
