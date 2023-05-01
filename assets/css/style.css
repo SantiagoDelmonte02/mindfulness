@@ -787,6 +787,19 @@ section {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.charla-principal-div {
+  margin: auto;
+  width: 60%;
+  display: flex;
+}
+
+.charla-principal-div img {
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: relative;
