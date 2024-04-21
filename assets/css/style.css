@@ -103,6 +103,7 @@ p {
 
   #header .logo img {
     max-height: 35px;
+    max-width: 35px;
     width: 100%;
   }
 }
@@ -554,6 +555,24 @@ section {
   width: 250px;
 }
 
+.img-libro {
+  margin: 0px 25px;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
+}
+
+.img-video-playlist {
+  margin: 0px 25px;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
+}
+
+.img-video-playlist:hover {
+  border: 2px solid #93c94e;
+}
+
+
+
 @media (max-width: 700px) {
   .contenedor-imagen-perfil {
     margin: auto;
@@ -567,6 +586,12 @@ section {
     width: 200px;
     margin: 20px;
   }
+
+  .img-libro {
+    margin: 20px;
+    width: 200px;
+  }
+
 }
 
 
@@ -776,6 +801,7 @@ section {
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   max-height: 450px;
+  min-height: 450px;
 }
 
 .portfolio .charlas-img {
