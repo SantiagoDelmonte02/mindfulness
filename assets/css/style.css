@@ -549,9 +549,16 @@ section {
   text-align: center;
 }
 
+
 .contenedor-video-youtube {
   margin: 40px;
   text-align: center;
+}
+
+.frame-youtube {
+  border: 3px solid rgba(206, 201, 188, 255);
+  height: 355px;
+  width: 660px;
 }
 
 .img-perfil {
@@ -582,6 +589,16 @@ section {
   .contenedor-imagen-perfil {
     margin: auto;
     text-align: center;
+  }
+  .contenedor-video-youtube {
+    margin: 40px 0px;
+    text-align: center;
+  }
+  .frame-youtube {
+    text-align: center;
+    border: 3px solid rgba(206, 201, 188, 255);
+    height: 300px;
+    width: 320px;
   }
 }
 
@@ -1463,11 +1480,9 @@ section {
 
 /* - - - - - - - CSS AGREGADO PROPIO - - - - - - */
 
-
 #more, #moreCurso {
   display: none;
 }
-
 
 .insta-reels {
   margin: auto;
