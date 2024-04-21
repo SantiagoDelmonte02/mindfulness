@@ -557,18 +557,18 @@ section {
 
 .img-libro {
   margin: 0px 25px;
-  width: 250px;
+  width: 240px;
   box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
 }
 
 .img-video-playlist {
-  margin: 0px 25px;
-  width: 250px;
+  margin: 25px 25px;
+  width: 500px;
   box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
 }
 
 .img-video-playlist:hover {
-  border: 2px solid #93c94e;
+  border: 2px solid #e05252;
 }
 
 
